@@ -18,7 +18,7 @@ const HeroSection: React.FC = () => {
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
             Your Health, Our Priority
           </h1>
-          <p className="text-xl md:text-2xl mb-8 text-background-light">
+          <p className="text-xl md:text-2xl mb-8 text-[#1E4D4D]">
             Experience world-class healthcare with cutting-edge technology and compassionate care.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
