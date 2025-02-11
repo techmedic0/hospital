@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background-light dark:bg-background-dark text-text-body dark:text-text-light;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-text-heading dark:text-text-light;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary-blue hover:bg-accent-cyan text-white font-semibold py-3 px-6 rounded-lg 
+           transition-glow duration-300 hover:shadow-glow transform hover:scale-[1.02];
+  }
+
+  .btn-secondary {
+    @apply bg-primary-teal hover:bg-glow-teal text-white font-semibold py-3 px-6 rounded-lg 
+           transition-glow duration-300 hover:shadow-glow transform hover:scale-[1.02];
+  }
+
+  .btn-accent {
+    @apply bg-accent-coral hover:bg-accent-cyan text-white font-semibold py-3 px-6 rounded-lg 
+           transition-glow duration-300 hover:shadow-glow transform hover:scale-[1.02];
+  }
+
+  .input-field {
+    @apply w-full p-3 bg-input-bg dark:bg-background-dark border border-primary-teal 
+           rounded-lg focus:ring-2 focus:ring-glow-teal focus:border-transparent
+           dark:text-text-light transition-all duration-300;
+  }
+
+  .section-mint {
+    @apply bg-background-mint dark:bg-background-dark;
+  }
+}
+
+.status-error {
+  @apply text-status-error;
+}
+
+.status-success {
+  @apply text-status-success;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out forwards;
+}

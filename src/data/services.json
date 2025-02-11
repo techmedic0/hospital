@@ -1,0 +1,40 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Emergency Care",
+      "description": "24/7 emergency medical services with state-of-the-art facilities",
+      "icon": "Stethoscope"
+    },
+    {
+      "id": 2,
+      "title": "Primary Care",
+      "description": "Comprehensive primary healthcare services for all ages",
+      "icon": "Heart"
+    },
+    {
+      "id": 3,
+      "title": "Specialized Surgery",
+      "description": "Advanced surgical procedures by expert specialists",
+      "icon": "Scissors"
+    },
+    {
+      "id": 4,
+      "title": "Laboratory Services",
+      "description": "Full-service medical laboratory and diagnostic testing",
+      "icon": "Flask"
+    },
+    {
+      "id": 5,
+      "title": "Pediatric Care",
+      "description": "Specialized healthcare services for children",
+      "icon": "Baby"
+    },
+    {
+      "id": 6,
+      "title": "Mental Health",
+      "description": "Comprehensive mental health and counseling services",
+      "icon": "Brain"
+    }
+  ]
+}
